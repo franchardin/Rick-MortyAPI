@@ -27,7 +27,7 @@ function Home({ chars, removeCharacterAction }) {
     )
 }
 
-// toma el store (todos los states) de redux y lo pasa a los props
+// toma el store (todos los states) de redux y lo pasa a los props !
 function mapState(state){
     // pasamos todo lo que esta en state.characters.array a un prop llamado chars
     return {
